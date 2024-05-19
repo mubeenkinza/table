@@ -1,0 +1,34 @@
+html table:
+ def:
+"to arrange data into rows and columns"
+1<table> element to used to make a table 
+2 inside table element used <tr>{ mean table rows}in table rows we use <th> means table heading
+<td> for table data Everything between <td> and </td> are the content of the table cell.
+To Add a Border:
+1 use the CSS border property on table, th, and td elements.
+i use border: 1px solid #ad1717;
+2{To avoid having double borders use the property border-collapse property to collapse.
+3 background-color: #96D4D4; i use this for my table background color
+4 border-radius property, the borders get rounded corners:
+Table Width:
+1 set the width of a table, add the style attribute to the <table> element:
+<table style="width:100%">
+Table Sizes:
+HTML tables can have different sizes for each column, row or the entire table.
+
+1 to set the size of a specific column, add the style attribute on a <th> or <td> element:{ i use <th style="width:70%">Firstname</th> on my th element of 2nd table
+2 style="height:200px in this i increase the height of my row {et the height of a specific row, add the style attribute on a table row element}
+Header for Multiple Columns:
+1 use the colspan attribute on the <th> element:
+2 a header that spans over two or more columns
+3 use the colspan attribute on the <th> element
+Table Caption:
+ to add a caption that serves as a heading for the entire table.
+<caption>Monthly bill</caption>
+ Zebra Stripes:
+1 add a background color on every other table row
+2 To style every other table row element, use the :nth-child(even)
+3 tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+4 a note i can use even or odd in an even the effect will bi on line 2 4 and in odd it will be 1,3 and so on
